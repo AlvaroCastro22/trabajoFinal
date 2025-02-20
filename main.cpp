@@ -6,7 +6,7 @@
 using namespace std;
 
 int main(){
-    cout<<"Hola";
+    cout<<"Bienvenido al programa del banco RaymiBank";
     int opcionGeneral;
     do
     {
