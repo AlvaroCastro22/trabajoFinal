@@ -278,13 +278,14 @@ int gestionRiesgos(){
             if (opcionBorrarRiesgo==1)
             {
                 cout<<"El riesgo ha sido atendido, eliminando de la lista..."<<endl;
+                eliminarMayor(riesgos);
             }else
             {
                 cout<<"El riesgo se mantiene, se recomienda atenderlo con prisa"<<endl;
             }
             
             
-            eliminarMayor(riesgos);
+            
             break;
         default:
             cout<<"Escriba una opcion disponible..."<<endl;
@@ -302,8 +303,6 @@ int gestionRiesgos(){
 }
 
 
-void saludar(){
-    cout<<"XD"<<endl;
-};
+
 
 #endif
