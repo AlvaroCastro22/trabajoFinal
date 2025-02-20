@@ -2,6 +2,7 @@
 #include "moduloRiesgos.h"
 #include "moduloClientes.h"
 #include "moduloCandidatos.h"
+#include "moduloFinanzas.h"
 using namespace std;
 
 int main(){
@@ -21,7 +22,7 @@ int main(){
             gestionClientes();
             break;
         case 2:
-            cout<<"Ejecutando opcion 2"<<endl;
+            gestionFinanzas();
             break;
         case 3:
             gestionCandidatos();
