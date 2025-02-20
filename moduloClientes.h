@@ -172,7 +172,7 @@ int gestionClientes(){
     int opcion;
     
     do {
-        cout << "\nMenú de Clientes:\n"
+        cout << "\nMenu de Clientes:\n"
              << "1. Registrar cliente\n"
              << "2. Buscar cliente\n"
              << "3. Mostrar datos del cliente\n"

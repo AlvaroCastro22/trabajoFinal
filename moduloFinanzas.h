@@ -339,7 +339,7 @@ int gestionFinanzas(){
     cargarPasivos(pasivos);
     int opcion;
     do {
-        cout << "\nMenú de Opciones:" << endl;
+        cout << "\nMenu de Opciones:" << endl;
         cout << "1. Registrar Transacción" << endl;
         cout << "2. Modificar Activos" << endl;
         cout << "3. Modificar Pasivos" << endl;

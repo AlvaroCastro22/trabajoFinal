@@ -10,11 +10,11 @@ int main(){
     int opcionGeneral;
     do
     {
-        cout << "\n--- Menú Principal ---\n";
+        cout << "\n--- Menu Principal ---\n";
         cout << "1. Gestion de Clientes\n";
         cout << "2. Finanzas\n";
-        cout << "3. Gestion de Riesgos\n";
-        cout << "4. Recursos Humanos\n";
+        cout << "3. Recursos Humanos\n";
+        cout << "4. Gestion de Riesgos\n";
         cout << "5. Salir\n";
         cout << "Seleccione una opción: ";
         cin>>opcionGeneral;
